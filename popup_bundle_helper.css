@@ -94,7 +94,9 @@ body {
   background: #fff;
   font-size: 15px;
   cursor: pointer;
-  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .stepper button:hover {
   background: var(--paper);
